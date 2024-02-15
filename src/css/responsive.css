@@ -1,0 +1,69 @@
+@media(max-width: 700px) {
+    body {
+        background-image: url(../imagens/bg-mobile.svg);
+    }
+
+    header img {
+        height: 150px;
+        width: 150px;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    main .informacao {
+        padding: 20px;
+    }
+
+    .informacao h1 {
+        font-size: 28px;
+        max-width: none;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+    
+    footer .social {
+        padding: 0 10px;
+    }
+
+    .social .social-icon {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media(max-width: 375px) {
+    header img {
+        height: 100px;
+        width: 100px;
+    }
+
+    main .informacao h1 {
+        font-size: 20px;
+    }
+
+    .informacao button {
+        padding: 10px 30px;
+        font-size: 15px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer .social {
+        padding: 0 10px;
+    }
+
+    .social .social-icon {
+        width: 30px;
+        height: 30px;
+    }
+}
