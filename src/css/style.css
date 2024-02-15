@@ -1,0 +1,90 @@
+body {
+    background-image: url(../imagens/bg-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+}
+
+header img {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+
+main {
+    padding: 0 50px;
+    display: flex;
+}
+
+main img {
+    width: 100%;
+}
+
+main .informacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+}
+
+.informacao h1 {
+    font-size: 37px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    
+    max-width: 480px;
+    display: flex;
+    text-align: center;
+}
+
+.informacao p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin: 20px auto;
+}
+
+.informacao button {
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    font-size: 17px;
+
+    padding: 12px 50px;
+    border: 1px solid;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+.informacao button:hover {
+    background-color: hsl(325, 89%, 73%);
+    color: #fff;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+}
+
+footer .social {
+    display: flex;
+    gap: 15px;
+    padding: 0 30px;
+}
+
+.social .social-icon {
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+    color: hsl(325, 89%, 73%);
+    background-color: hsl(325, 89%, 73%);
+}

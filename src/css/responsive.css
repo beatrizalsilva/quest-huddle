@@ -1,0 +1,7 @@
+@media (max-width: 375px) {
+    body {
+        background-image: url("../imagens/bg-mobile.svg") no-repeat;
+        background-size: cover;
+        background-color: hsl(257, 40%, 49%);
+    }
+}
