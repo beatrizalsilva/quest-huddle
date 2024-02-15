@@ -8,12 +8,13 @@ body {
 header img {
     height: 200px;
     width: 200px;
-    margin: 20px;
+    margin: 0 20px;
 }
 
 main {
     padding: 0 50px;
     display: flex;
+    gap: 10px;
 }
 
 main img {
@@ -68,6 +69,7 @@ footer {
 
 footer .social {
     display: flex;
+    font-size: 16x;
     gap: 15px;
     padding: 0 30px;
 }
@@ -85,6 +87,6 @@ footer .social {
 }
 
 .social-icon:hover {
-    color: hsl(325, 89%, 73%);
-    background-color: hsl(325, 89%, 73%);
+    color: hsl(300, 69%, 71%);
+    background-color: hsl(300, 69%, 71%);
 }
